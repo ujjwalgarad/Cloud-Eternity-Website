@@ -1,0 +1,606 @@
+
+body{
+	background-color:#FAFAFA;	
+}
+
+/* Top heading*/
+.container-fluid{
+	padding-left: 10px;
+	padding-top: 4px;
+	
+	width:100%;
+	height:120px;
+	background-color: #009688;
+	
+}
+#flight{
+	width:20px;
+	height:20px;
+}
+h1{
+	color:white;
+	
+	font-weight: bold;
+	margin-left: 150px;
+}
+
+.box{
+	padding:0px;
+	height:100%;
+	width:33.3%;
+	
+	float: left;
+}
+.login{
+	margin-top: -50px;
+	float:right;
+}
+#signIn{
+	margin-right: 80px;
+}
+#searchDiv{
+	
+	width:40%;
+	height: 50px;
+	
+}
+
+#searchtextbox{
+	height: 40px ;
+}
+#cityDiv{
+	background-color: white;
+	max-height: 65px;
+	overflow-y: scroll;
+}
+#cityDiv p{
+	padding-left: 10px;
+}
+
+/*Hidden pop up bx */
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic);
+
+body {font-family: 'Source Sans Pro', sans-serif; font-size: 14px; color: #666;}
+
+#modal_trigger {
+    margin-top: -48px;
+    margin-right:0px; 
+    width:220px; 
+    display:block;
+    float:right;
+    color: white;
+}
+#modal_trigger:hover{
+    color:black;
+}
+
+.btnH {padding:10px 20px; 
+    background: #F44336; 
+}
+.btnH:hover {
+    background: #606060;
+
+ }
+.btnHM{
+	padding:10px 20px; 
+    background: #F44336; 
+}
+.btnHM:hover {
+    background: White;
+
+ }
+
+ a.btnHM {color:white; text-align: center; text-decoration: none;}
+.popupContainer{
+    position:absolute;
+    width:330px;
+    height: auto;
+    left:45%;
+    top:80px;
+    background: #FFF;
+}
+
+#message{
+	color:red;
+}
+#messageuser{
+	color: White;
+	float:right;
+
+}
+/* Popup Styles*/
+.popupHeader {font-size:16px; text-transform: uppercase;}
+.popupHeader {background:#F4F4F2; position:relative; padding:10px 20px; border-bottom:1px solid #DDD; font-weight:bold;}
+.popupHeader .modal_close {position: absolute; right: 0; top:0; padding:10px 15px; background:#E4E4E2; cursor: pointer; color:#aaa; font-size:16px;}
+
+.popupBody {padding:20px;}
+
+.btn_red {background: #ED6347; color: #FFF;}
+
+
+.btn_red:hover {background: #C12B05;}
+
+a.btnH {color:white; text-align: center; text-decoration: none;}
+a.btn_red {color: #FFF;}
+
+.one_half {width:50%; display: block; float:left;}
+.one_half.last {width:45%; margin-left:5%;}
+
+#lean_overlay {
+    position: fixed;
+    z-index:100;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+
+
+/* Social Login Form */
+.social_login {}
+.social_login .social_box {display:block; clear:both; padding:10px; margin-bottom: 10px; background: #F4F4F2; overflow: hidden;}
+.social_login .icon {display:block; width:10px; padding:5px 10px; margin-right: 10px; float:left; color:#FFF; font-size:16px; text-align: center;} 
+.social_login .fb .icon {background:#3B5998;}
+.social_login .google .icon {background:#DD4B39;}
+.social_login .icon_title {display:block; padding:5px 0; float:left; font-weight: bold; font-size: 16px; color:#777;}
+.social_login .social_box:hover {background: #E4E4E2;}
+
+.centeredText {text-align: center; margin: 20px 0; clear: both; overflow: hidden; text-transform: uppercase;}
+
+.action_btns {clear:both; overflow: hidden;}
+.action_btns a {display: block;}
+
+/* User Login Form */
+.user_login {display: none;}
+.user_login label {display: block; margin-bottom:5px;}
+.user_login input[type="text"], .user_login input[type="email"], .user_login input[type="password"] {display: block; width:90%; padding: 10px; border:1px solid #DDD; color:#666;}
+
+.user_login input[type="checkbox"]+label {float:left;}
+
+.user_login .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;}
+.forgot_password {display:block; margin: 20px 0 10px; clear: both; overflow: hidden; text-decoration: none; color:#ED6347;}
+
+/* User Register Form */
+.user_register {display: none;}
+.user_register label {display: block; margin-bottom:5px;}
+.user_register input[type="text"], .user_register input[type="email"], .user_register input[type="password"] {display: block; width:90%; padding: 10px; border:1px solid #DDD; color:#666;}
+.user_register input[type="checkbox"] {float:left; margin-right:5px;}
+.user_register input[type="checkbox"]+label {float:left;}
+
+.user_register .checkbox {margin-bottom: 10px; clear: both; overflow: hidden;}
+
+
+#formation:after {
+    display:block;
+    clear:both;
+}
+
+#formation a{
+	color:black;
+}
+
+/*----- Menu Outline -----*/
+.menu-wrap {
+    width:100%;
+    padding-left: 70px;
+    padding-bottom: 10px;
+    box-shadow:0px 0px 0px rgba(0,0,0,0.2);
+    
+}
+
+.navigation {
+    
+    margin:0px auto;
+}
+
+.navigation li {
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+    
+}
+.navigation a{
+	transition:all linear 0.15s;
+    color:#004D40;
+}
+.navigation li:hover > a, .navigation .current-item > a {
+    text-decoration:none;
+    color:white;
+    background-color:yellow;
+}
+.navigation .arrow {
+    font-size:18px;
+    line-height:0%;
+}
+.navigation > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:18px;
+    color: #004D40;
+}
+.navigation > ul > li > a {
+    padding:10px 20px 10px 20px;
+    display:inline-block;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.4);
+}
+.navigation > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#F44336;
+    color: white;
+}
+
+/*----- Bottom Level -----*/
+.navigation li:hover .sub-menu {
+    z-index:99;
+    opacity:1;
+}
+
+.sub-menu {
+    width:160%;
+    padding:5px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:white;
+}
+.sub-menu li {
+    display:block;
+    font-size:16px;
+    color: red;
+}
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:red;
+}
+
+/* GIF Image */
+.greenGrass{
+	border: 1px solid #ccc;
+}
+
+.greenGrass img{
+	width: 100%;
+	height:100%;
+
+}
+#grassAnime{
+	padding: 0px;
+	height:400px;
+}
+#grass{
+	position: relative;
+	z-index: -1;
+}
+
+
+/* text slide show*/
+
+.textslider{
+	padding:20px;
+	position: absolute;
+	
+	z-index: 90;
+	margin-top: 40px;
+	margin-left:120px;
+	width:1000px;
+	height:100px;
+	background: rgba(0, 0, 0, 0.0);
+
+}
+
+.textslider p{
+	font-size: 30px;
+	color:white;
+}
+
+.slider1{
+	position: relative;
+}
+/* slid show*/
+#slideshow{
+	padding:0px;
+	height:410px;
+	position: relative;
+}
+
+#slideshow img{
+	width:100%;
+	height:100%;
+}
+#slideshow > div { 
+    position: absolute; 
+    
+}
+
+/* Booking div*/
+
+#booking{
+	padding:20px;
+	text-align: center;
+}
+.ticket{
+	padding: 5px;
+	
+	background-color: #FAFAFA;
+}
+.bookbutton{
+	padding: 5px;
+}
+/* Booking Modal*/
+#modhead{
+	color: #004D40;
+	border-bottom: 2px solid #004D40;
+	background-color: #A7FFEB;
+}
+.lableName{
+	color: #004D40;
+	font-weight: bold;
+}
+.cal{
+	font-size: 20px;
+}
+td{
+	padding:5px;
+
+}
+.modfoot{
+	color: #004D40;
+	border-top: 2px solid #004D40;
+	background-color: #A7FFEB;
+}
+/* categories div*/
+.categories{
+	padding: 2px;
+
+}
+#cateHeading{
+	padding:2px;
+	background-color: #00695C;
+	height:40px;
+	text-align: center;
+	color:white;
+	font-size: 25px;
+	font-family: Georgia Bold Italic;
+}
+#destinations > ul{
+  padding: 5px;
+  text-decoration: none;
+  color: #00695C;
+  list-style:none;
+  height:20%;
+  border-bottom: 2px solid  #00695C;
+
+}
+.dropdown ul{
+	list-style: none;
+}
+#destinations a{
+  padding: 2px;
+  text-decoration: none;
+  color: #00695C;
+  font-size: 15px;
+}
+#destinations li{
+  padding: 15px;
+  height:100%;
+  z-index: 20;
+
+}
+ul.sub-menu2{
+	padding-left: 20px;
+	display: none;
+	z-index: 90;
+}
+
+.sub-menu2 li{
+	margin-left: 0px;
+	padding: 0px;
+	
+}
+.sub-menu2{
+	padding: 0px;
+	margin-left: 40px;
+}
+#destinations a:hover,
+#destinations a:focus,
+#destinations a:active{
+	background-color: #64FFDA;
+}
+#destinations li:hover{
+	background-color: #64FFDA;
+}
+.sub-menu2 ul{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-right: 2px;
+}
+
+/* body text div*/
+
+.textline{
+	padding:2px;
+	text-align: justify;
+	height:300px;
+	font-family:font-family: Futura,  Verdana, Arial, sans-serif;
+}
+.textline p{
+	padding: 10px;
+	font-size: 20px;
+	font-family: Marlett;
+}
+
+
+/* testimonial div*/
+.testimonial{
+	padding: 2px;
+	height:300px;
+
+}
+#testHeading{
+	padding:2px;
+	background-color: #00695C;
+	height:40px;
+	text-align: center;
+	color:white;
+	font-size: 25px;
+	font-family: Georgia Bold Italic;
+}
+.testim{
+	padding:5px;
+	font-size: 18px;
+	border-bottom: 2px solid  #00695C;
+}
+.testimonial > div { 
+    position: absolute; 
+    
+}
+/* Booking div*/
+.footer{
+	margin-left: 5px;
+	padding: 18px;
+	
+	height: 200px;
+	width:280px;
+}
+.bottom{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+	height:auto;
+}
+
+#traveler{
+	font-size: 20px;
+	font-family: Verdana Italic;
+	color: white;
+}
+.footer p{
+	font-size: 12px;
+	color: white;
+}
+.subbox{
+	padding:5px;
+}
+.footer ul{
+	list-style:none;
+	
+}
+.footer a{
+	color: white;
+}
+
+#que {
+	font-size: 25px;
+}
+#contact{
+	font-size: 22px;
+	color:orange;
+}
+#email{
+	font-size: 20px;
+	color:orange;
+}
+
+/* to support responsive web */
+@media screen and (max-width: 1205px){
+.slider1{
+	display: none;
+}
+#SearchBar{
+	display: none;
+}
+.footer{
+	border: 1px solid white;
+}
+.textline{
+	height: auto;
+}
+h1{
+	margin-top: 0px;
+}
+}
+
+/*about us page css style*/
+.abtus{
+	text-align: justify;
+}
+hr{
+	border: 2px dotted grey;
+}
+
+/*Destination page css style*/
+.desti{
+	
+	padding: 10px;
+}
+.desti img{
+	width: 100%;
+	height: 100%;
+
+}
+
+.desti button{
+	background-color: orange;
+	float: right;
+}
+.destinationName{
+	padding: 30px;
+
+}  
+
+h3{
+	font-weight: bold;
+}
+
+/* Testimonial page css style*/
+.fa-quote-left{
+	font-size: 40px;
+}
+.testiText{
+	font-size: 20px;
+	text-align: justify;
+}
+.testiBlock{
+	padding: 20px;
+	border: 1px solid grey;
+	background-color: #E0E0E0;
+	color: black;
+	opacity: 0.5;
+}
+
+#grad {
+    
+    background: #E0E0E0; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(white, #9E9E9E); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(white, #9E9E9E); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(white, #9E9E9E); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(white, #9E9E9E); /* Standard syntax (must be last) */
+}
+
+/*Testimonial section*/
+#formSection{
+	padding: 10px;
+}
+#done{
+	background-color: #9C27B0;
+	color:white;
+	padding: 2px;
+}
+#contact-form{
+	padding: 5px;
+}
+@font-face{ /* for IE */
+    font-family:font-family: Futura,  Verdana, Arial, sans-serif;
+    
+}
