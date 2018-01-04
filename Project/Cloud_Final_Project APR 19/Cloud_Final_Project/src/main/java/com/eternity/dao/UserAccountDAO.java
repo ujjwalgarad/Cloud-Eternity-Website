@@ -94,9 +94,9 @@ public class UserAccountDAO extends DAO{
 		
 		String driver = "com.mysql.jdbc.Driver";
 		DbUtils.loadDriver(driver);
-		String dburl = "jdbc:mysql://54.86.66.223:3306/eternitydb";
-		String dbuser = "admindb";
-		String password = "Sea2s0n1!";
+		String dburl = "jdbc:mysql://**.**.**.***:****/eternitydb";
+		String dbuser = "********";
+		String password = "********";
 		
 		Connection conn = DriverManager.getConnection(dburl,dbuser,password);
 //		String query = "select sampletable.employeename, sampletable.deptname, sampletable.total "
